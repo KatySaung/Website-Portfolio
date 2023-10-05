@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,900;1,900&family=Recursive:wght@300;400&display=swap');
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    color: #000831;
+
+}
+
+p {
+    font-family:'Recursive', sans-serif;
+    line-height: 1.5;
+}
+
+h1,h2,h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.25rem;
+    color:#00d973;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul a{
+text-decoration: none;
+    font-size: 1.0rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Recursive';
+    color: #00d973;
+    text-transform: none;
+}
+span{
+    color:#fa2b00;
+}
+.app-container {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+}
+
+#project {
+    padding: 3rem 0;
+}
+
+.flex-container {
+    display: flex;
+    width: 200px;
+}
+
+.pic {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio-img {
+    width: 33vw;
+    padding: 10px 0;
+    filter: drop-shadow(0.7px 1px 2px rgba(0, 0, 0, 0.47));
+    border-radius: 0.5rem;
+}
